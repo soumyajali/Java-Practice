@@ -5,6 +5,12 @@ public class Arrays {
         System.out.print("Enter the size :");
 
         int size = sc.nextInt();
+          sc.close();
+         if(size<0){
+            System.out.println("Invalid size");
+            return;
+            
+        }
         int[] marks = new int[size];
        /*  int [] marks = new int[3];
         marks[0]=20;
@@ -15,10 +21,9 @@ public class Arrays {
         System.out.println(marks[1]);
         System.out.println(marks[2]);*/
 
-        for(int i = 0;i<=2;i++){
+        for(int i = 0;i<size;i++){
             System.out.println(marks[i]);
         }
-        sc.close();
     }
     
 }
