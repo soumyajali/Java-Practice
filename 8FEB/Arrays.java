@@ -18,6 +18,7 @@ public class Arrays {
         for(int i = 0;i<=2;i++){
             System.out.println(marks[i]);
         }
+        sc.close();
     }
     
 }
