@@ -1,11 +1,10 @@
-public class SetBits {
+public class SetBit{
     public static void main(String[] args){
-        int n = 5;
-        int pos = 2;
+        int n = 3;
+        int pos = 1;
         int bitwise = 1 << pos;
-        bitwise = ~bitwise;
 
-        int Newnumber = bitwise & n;
+        int Newnumber = bitwise | n;
         System.out.println(Newnumber);
     }
     
