@@ -1,4 +1,4 @@
-public class Bits {
+public class GetBit {
     public static void main(String[] args){
         int n = 7;
         int pos = 2;
