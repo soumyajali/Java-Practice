@@ -23,7 +23,7 @@ public class Main{
      else{
          System.out.println("Fail");
      }
-     
+     sc.close();
  }
  
  public static void main(String[] args){
