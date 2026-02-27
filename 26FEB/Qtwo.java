@@ -10,7 +10,7 @@
 		System.out.println("Hello" + " " + name +  " " + "Welcome to java Program");
 		
 
-		
+		input.close();
 	}
 }
     
