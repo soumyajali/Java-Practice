@@ -7,7 +7,7 @@ System.out.println("equal");
 }
 else{
 System.out.println("not equal");
-21
+
 }*/
 if(name1==name2){
 System.out.println("equal");
