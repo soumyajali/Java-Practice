@@ -1,6 +1,6 @@
 public class CountNum{
     public static void main(String args[]){
-        int num = 2345545553;
+        int num = 2345;
         int count = 0;
 
         while(num>0){
